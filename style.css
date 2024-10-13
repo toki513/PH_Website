@@ -190,13 +190,18 @@ text-align: center;
 }
 .footer-color{
     display: flex;
-    justify-content: space-around;
-   
+    justify-content: space-between;
     width: 1140px;
     height: 36px;
 }
 .footer{
     height: 100px;
-    width: 1440px;
+    width: 100%;
     background-color: rgba(13, 19, 33, 0.03);
+    padding-left: 600px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    padding-top: 11px;
 }

@@ -17,7 +17,7 @@
                     <img class="group-pic" src="assets/Group.png" alt="">
                     <h1 class="fist-line">"In the near future, I hope to <br> become a Developer."</h1>
                     <p class="basic-intro">I want to become a developer because I love to do working on the websites. So that <br>I can be useful to other people who want to do their work on websites </p>
-                    <button class="contact-with-me">Contact With me</button>
+                    <button class="contact-with-me" onclick="scrollToFooter()">Contact With me</button>
                 </div>
             </div>
         </div>
@@ -112,11 +112,17 @@
         <div class="footer-color">
             <h3 class="commitment">An open Commitment by Toki Tahmid Khan</h3>
             <div class="icons">
-            <a href="https://www.facebook.com/tokitahmid.khan?mibextid=ZbWKwL" target="_blank"><img src="assets/facebook.png" alt=""></a>
-            <a href="https://github.com/toki513" target="_blank"><img src="assets/github.png" alt=""></a>
-            <a href="https://www.linkedin.com/in/toki-tahmid-3b19b41a2/" target="_blank"><img src="assets/linkedin-icon 1.png" alt=""></a>
+                <a href="https://www.facebook.com/tokitahmid.khan?mibextid=ZbWKwL" target="_blank"><img src="assets/facebook.png" alt=""></a>
+                <a href="https://github.com/toki513" target="_blank"><img src="assets/github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/toki-tahmid-3b19b41a2/" target="_blank"><img src="assets/linkedin-icon 1.png" alt=""></a>
         </div>
         </div>
     </footer>
+    <script>
+        function scrollToFooter() {
+            const footer = document.querySelector('.footer');
+            footer.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
