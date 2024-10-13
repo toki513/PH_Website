@@ -1,0 +1,93 @@
+
+body{
+    font-family: "Azeret Mono", monospace;
+}
+.background-pic{
+    background-image: url(assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 652px;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.group-pic{
+    padding-top: 50px;
+    margin-left: 30%;
+}
+.fist-line{
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.basic-intro{
+    text-align: center;
+    color: #0D1321;
+    font-size: 18px;
+   text-align: center;
+}
+.contact-with-me{
+    padding: 24px 21px;
+    background-color: #0D1321;
+    color:#FFFFFF ;
+    width: 244px;
+    height: 65px;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30%;
+}
+
+.Web-Development{
+    height: 1180px;
+    width: 1140px;
+    background-color: rgb(240, 255, 255) ;
+
+    margin: 100px 50vh;
+}
+.whywebdevelopment{
+    background-color: aliceblue; 
+    margin: 70px;
+    
+}
+.title{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    text-align: center;
+    padding-top: 60px;
+}
+.description{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.development-contents1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.development-contents2{
+    padding-left: 110px;
+    display: flex;
+    justify-content: normal ;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+.development-contents3{
+    padding-left: 90px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.learn-more{
+    height: 47px;
+    width: 171px;
+    font-size: 20px;
+    margin-top: 10px;
+}
