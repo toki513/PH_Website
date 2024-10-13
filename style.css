@@ -45,12 +45,12 @@ body{
 .Web-Development{
     height: 1180px;
     width: 1140px;
-    background-color: rgb(240, 255, 255) ;
+    background-color: rgba(255, 255, 255, 1) ;
 
     margin: 100px 50vh;
 }
 .whywebdevelopment{
-    background-color: aliceblue; 
+    background-color: rgba(13, 19, 33, 0.02); 
     margin: 70px;
     
 }
@@ -100,4 +100,90 @@ body{
 }
 .video-open{
    margin-left: 600px;
+   padding: 18px;
+   border-radius: 10px;
+
+}
+.current-target{
+    width: 1140px;
+    height: 500px;
+    margin: 100px 600px;
+}
+.three-target{
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.individualtarget{
+    display: flex;
+    gap: 20PX;
+}
+.learn-more{
+    text-decoration: underline;
+}
+.target-des{
+    padding: 20PX;
+}
+.html-group{
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 28px;
+}
+.css-group{
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 28px;
+}
+.js-group{
+    background-color:rgba(255, 223, 0, 0.05) ;
+    padding: 28px;
+}
+.support-section{
+    display: flex;
+    margin-left: 600px;
+}
+.handshakepic {
+    background-image: url(assets/handshake.png);
+    width: 1140px;
+    height: 313px; 
+    background-size: cover; 
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+  
+}
+.submit{
+    display: flex;
+    gap: 10px;
+    padding-left: 220px;
+}
+.handshakepic{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.support-title{
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    line-height: 36px
+}
+.support-des{
+    color: white;
+    font-size: 18;
+    line-height: 26px;
+}
+.submit-box{
+    height: 57px;
+    width: 548px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+.submit-btn{
+    height: 59px;
+    width: 120px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
